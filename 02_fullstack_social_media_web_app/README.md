@@ -1,12 +1,12 @@
 # 🚀 Instagram Clone - Fullstack Web Application
 
-Proyek ini saya buat dengan menerapkan fitur seperti halnya aplikasi instagram dimana aplikasi web sosial media yang saya buat dalam project kali ini memungkinkan pengguna untuk berbagi postingan, berinteraksi dengan pengguna lain, serta mengirim pesan real-time dengan fitur **chat**. Backend menggunakan **Node.js (Express.js)** dengan **MySQL & Cassandra**, sementara frontend dikembangkan dengan **React.js (Vite) & TailwindCSS**.
+Proyek ini saya buat dengan menerapkan fitur seperti halnya aplikasi instagram dimana aplikasi web sosial media yang saya buat dalam project kali ini memungkinkan pengguna untuk berbagi postingan, berinteraksi dengan pengguna lain, serta mengirim pesan real-time dengan fitur **chat**. Backend menggunakan **Node.js (Express.js)** dengan **MySQL & Mongodb**, sementara frontend dikembangkan dengan **React.js (Vite) & TailwindCSS**.
 
 ---
 
 ## 📝 Deskripsi Proyek
 
-**Instagram Clone** adalah aplikasi sosial media yang memiliki fitur seperti pembuatan postingan, sistem like & komentar (fitur komentar bersarang yang memungkinkan pengguna melakukan mention dan mereply dari komen user sebelumnya), autentikasi menggunakan OAuth Google + JWT Token, serta fitur **chat real-time** menggunakan **Socket.io & Cassandra**.
+**Instagram Clone** adalah aplikasi sosial media yang memiliki fitur seperti pembuatan postingan, sistem like & komentar (fitur komentar bersarang yang memungkinkan pengguna melakukan mention dan mereply dari komen user sebelumnya), autentikasi menggunakan OAuth Google + JWT Token, serta fitur **chat real-time** menggunakan **Socket.io & Mongodb**.
 
 Proyek ini bertujuan untuk mensimulasikan fitur-fitur dasar dari Instagram dengan performa dan keamanan yang optimal.
 
@@ -28,7 +28,7 @@ Proyek ini bertujuan untuk mensimulasikan fitur-fitur dasar dari Instagram denga
 
 ### 🔹 **Chat Real-time**
 
-- **WebSocket (Socket.io) + Cassandra Database** untuk menyimpan dan mengirim pesan real-time.
+- **WebSocket (Socket.io) + Mongodb Database** untuk menyimpan dan mengirim pesan real-time.
 - **Dukungan Media:** Kirim pesan teks dan gambar menggunakan **Multer & Cloudinary**.
 
 ### 🔹 **Notifikasi & Interaksi Pengguna**
@@ -42,7 +42,7 @@ Proyek ini bertujuan untuk mensimulasikan fitur-fitur dasar dari Instagram denga
 
 ### 🔹 **Backend (Node.js & Express)**
 
-- **Database:** MySQL (Sequelize ORM) & Cassandra (untuk chat).
+- **Database:** MySQL (Sequelize ORM) & Mongodb (untuk chat).
 - **Autentikasi:** Passport.js (OAuth 2.0), JWT, bcrypt.
 - **File Storage:** Multer & Cloudinary.
 - **Email Service:** Nodemailer.
